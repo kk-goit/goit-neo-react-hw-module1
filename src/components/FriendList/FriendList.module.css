@@ -1,0 +1,8 @@
+.friends {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap:20px;
+  padding-top: 20px;
+}

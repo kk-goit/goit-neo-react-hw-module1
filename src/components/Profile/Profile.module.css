@@ -1,0 +1,57 @@
+.profile {
+  border: 3px solid black;
+  border-radius: 12px;
+  font-size: 24px;
+  width: 480px;
+}
+
+.mainData {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.mainData > img {
+  border-radius: 240px;
+  width: 160px;
+  height: 160px;
+}
+
+.userInfo {
+  color: gray;
+}
+
+.userName {
+  font-weight: 600;
+  color: black;
+}
+
+.info {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: gray;
+  padding-top: 3px;
+  gap: 3px;
+}
+
+.infoItem {
+  width: 100%;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.infoHead {
+  text-transform: capitalize;
+}
+
+.infoData {
+  font-weight: 600;
+}

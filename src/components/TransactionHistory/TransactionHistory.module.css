@@ -1,0 +1,22 @@
+.table {
+  width: 480px;
+  margin-top: 20px;
+  background-color: black;
+}
+
+.head {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.data {
+  background-color: antiquewhite;
+  font-weight: 600;
+}
+.data:nth-child(odd) {
+  background-color: white;
+}
+
+.type {
+  text-transform: capitalize;
+}

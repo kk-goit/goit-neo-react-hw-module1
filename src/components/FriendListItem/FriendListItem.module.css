@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 10px;
+  gap:10px;
+  font-size: 16px;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 20px;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
